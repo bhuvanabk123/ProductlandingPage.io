@@ -1,0 +1,138 @@
+
+
+
+header{
+  
+  display:flex;
+  justify-content: space-between;
+  position:fixed;
+  width:100%;
+  padding:1em;
+  top:0;
+  left:0;
+  background-color:maroon;
+}
+nav > a {
+    margin: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+#form > h1{
+  padding:2em;
+  font-size:20px;
+  text-align:center;
+
+}
+form{
+  padding:5px;
+  margin-top:25px;
+  
+}
+input{
+  width:150px;
+  display:block;
+  margin:10px auto;
+
+}
+
+#submit{
+  background-color:orange;
+  border-color:orange;
+  width:100px;
+}
+
+#header-img{
+  width: max(100px, 35vw);
+  aspect-ratio:35/4;
+  background-color:white;
+  margin-left:0;
+}
+.address{
+  padding-left:25px;
+  width:100%;
+ 
+}
+
+
+
+h1,p{
+  margin:0;
+}
+p{
+  padding-bottom:25px;
+}
+
+#row1{
+  
+  
+  justify-content: space-between;
+  width:100%;
+}
+div{
+  padding-bottom:20px;
+}
+#video{
+ margin-top:20px;
+  display:block;
+  margin:auto;
+ 
+  
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex > div{
+  background-color: #f1f1f1;
+  margin: 30px;
+  
+  font-size: 150px;
+  border:1px solid black;
+  width:33%;
+  flex-basis:1em;
+  
+}
+body {
+    /*background-color:#f1f1f1;*/
+    background-image: linear-gradient(180deg, #e1eec3, #f05053)
+}
+.box1 p{
+  width:100%;
+  
+  font-size:10px;
+ 
+}
+.box1{
+  display:block;
+  margin:0, auto;
+  padding-top:0;
+}
+.flex-div{
+  height:10px;
+  background-color:silver;
+  color:black;
+  text-align:center;
+  padding-top:10px;
+}
+.prices{
+  font-size:20px;
+  text-align:center;
+}
+button{
+  background-color:darkblue;
+  color:white;
+}
+@media(min-width:625px){
+  header{
+    height:20px;
+    position:fixed;
+  }
+  body{
+    width:100%;
+  }
+  
+}
